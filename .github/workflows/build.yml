@@ -4,6 +4,9 @@ name: publish docker image
 on:
   push:
     branches: ['main']
+    paths:
+      - 'Dockerfile'
+      - '.github/workflows/build.yml'
 
 env:
   REGISTRY: ghcr.io
