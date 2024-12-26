@@ -1,4 +1,4 @@
-## A Docker image for Atlantis with Cdktf and Bun
+## A Docker image for Atlantis with Cdktf and Bun(support arm64 / amd64)
 
 This is a Docker image for Atlantis with Cdktf and Bun.
 
