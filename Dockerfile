@@ -8,3 +8,5 @@ RUN curl -fsSL https://deb.nodesource.com/setup_20.x | bash\
 	&& npm install -g cdktf-cli@0.20.10 \
 	&& curl -fsSL https://bun.sh/install | bash -s "bun-v1.1.42" \
 	&& mv "$HOME/.bun/bin/bun" /usr/local/bin/
+
+RUN apt-get update && apt-get install -y postgresql-client
